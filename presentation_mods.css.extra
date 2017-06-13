@@ -1,0 +1,62 @@
+<style>
+/* Changes with respect to base reveal.css */
+
+.reveal .slides { text-align: left; }
+.reveal .slides .title, .reveal .slides .subtitle, .reveal .slides .author, .reveal .slides .date, .reveal .slides h1, .reveal .slides h2, .reveal .slides h3, .reveal .slides figure {
+    text-align: center;
+}
+
+.reveal .slides .subtitle {
+    font-size:1.11em;
+    color:#78b9e6
+}
+.reveal .slides .date {
+    font-size:0.65em;
+}
+
+.reveal .slides strong {
+    color:#78b9e6;
+}
+
+.reveal figcaption {
+    font-size: 60%;
+}
+
+.reveal pre {
+    font-size: 0.7em;
+}
+
+/* Changes wrt black.css reveal.js theme */
+.reveal pre code {
+    background-color: #555;
+    padding: 15px;
+    border: solid 1px #111;
+}
+
+.reveal .slides h3 {
+    color: #78b9e6;
+}
+
+/* extras */
+
+.privateNotes {
+    display:none;
+}
+
+.reveal .mainImage {
+    text-align:center;
+}
+
+.reveal .mainImage img {
+    border-style:none;
+}
+
+h2 .longHeading {
+    font-size: 0.78em;
+}
+
+.reveal .slides .resources {
+    font-size: 0.5em;
+}
+
+</style>
